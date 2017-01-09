@@ -9,6 +9,8 @@ To use this, you'll need Node installed, if you do not already - https://nodejs.
 Either checkout this code with git 
 ```
   git clone https://github.com/shaneosullivan/folder-backup-service.git
+  cd folder-backup-service
+  npm install
 ```
 or download the ZIP from https://github.com/shaneosullivan/folder-backup-service/archive/master.zip and extract it.
 
