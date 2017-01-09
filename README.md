@@ -3,7 +3,15 @@ folder-backup-service empties one or more folders, moving the contents into anot
 
 The idea behind this is that it can be used to consolidate files from multiple places into one or more folders.  For example, if your phone automatically syncs photos to Dropbox, and you'd like to keep the amount stored on Dropbox to a minimum, this service can automatically check the "Camera Uploads" folder every minute, and move all it's contents to a folder on your computer that you specify.  The same could be done with the semi-hidden folder that the Photos app uses, so you don't have to search in a hidden place for your photos every time you sync your iPhone with your Mac.
 
-To use this, you'll need Node installed.
+To use this, you'll need Node installed, if you do not already - https://nodejs.org/en/download/
+
+## Installation
+Either checkout this code with git 
+  git clone https://github.com/shaneosullivan/folder-backup-service.git
+
+or download the ZIP from https://github.com/shaneosullivan/folder-backup-service/archive/master.zip and extract it.
+
+## Usage
 
 First, execute the run.js file on the command line.  If it's not executable for some reason, do
 
