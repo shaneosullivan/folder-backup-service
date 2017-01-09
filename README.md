@@ -14,14 +14,23 @@ or download the ZIP from https://github.com/shaneosullivan/folder-backup-service
 
 ## Usage
 
-First, execute the run.js file on the command line.  If it's not executable for some reason, do
+First, execute the run.js file on the command line.  
+```
+  cd folder-backup-service
+  ./run.js
+```
+
+
+If it's not executable for some reason, do
 ```
 chmod +x run.js
 ```
 to make it runnable.
 
-The first time you run it, a file will be generated that lists the folders you want to back up, called 'config', in the same folder as run.js.  Edit this file to specify the folders.  Each line contains two folder paths, separated by a ':'.  The first folder is the source, where files will be removed from.  The second folder is the destination.
-
+The first time you run it, a file will be generated that lists the folders you want to back up, called 'config', in the same folder as run.js.  Edit this file to specify the folders.  Each line contains two folder paths, separated by a ':'.  The first folder is the source, where files will be removed from.  The second folder is the destination.  For example
+```
+/Users/MyName/Dropbox/Camera Uploads:/Users/MyName/MyPhotos/DropboxPhotos
+```
 When files are copied over, they maintain the folder structure.
 
 Once you've updated the config file, you can execute run.js again, and it'll move the files, but just once.  If you'd like to just test it out, copying the files instead of moving them, execute
