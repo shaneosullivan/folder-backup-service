@@ -1,0 +1,27 @@
+{
+  "name": "folder-backup-service",
+  "version": "1.0.0",
+  "description": "folder-backup-service empties one or more folders, moving the contents into another folder, keeping it empty at all times. It can be installed as a service on a Mac to run continuously.",
+  "homepage": "https://github.com/shaneosullivan/dropbox-empty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaneosullivan/dropbox-empty"
+  },
+  "keywords": [
+    "file",
+    "file system",
+    "move",
+    "directory",
+    "dropbox"
+  ],
+  "author": "Shane O Sullivan <shaneosullivan1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^1.0.0"
+  },
+  "devDependencies": {
+  },
+  "main": "./DBEmpty.js",
+  "scripts": {
+  }
+}

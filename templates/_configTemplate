@@ -1,0 +1,10 @@
+# Enter the names of folders to move files from and to here
+# The first folder is the one that files should be removed from
+# The second folder is the one that the files to be moved to
+# There should be a colon between them
+# You can have multiple entries.
+
+# Example (remove the # from the beginning)
+# /Users/MyName/Photos/MySourceFolder:/Users/MyName/Photos/MyDestinationFolder
+# /Users/MyName/Dropbox/Camera Uploads:/Users/MyName/MyPhotos/DrobboxPhotos
+# /Users/MyName/Pictures/Photos Library.photoslibrary/Masters:/Users/MyName/Pictures/ByDate
